@@ -68,4 +68,4 @@ let sottrazione = y - x;
 let name1 = john;
 let name2 = John;
 
-name1 == name2-- > false;
+console.log(name1 == name2);
