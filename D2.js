@@ -33,6 +33,7 @@ let numero1 = 12;
 let numero2 = 20;
 
 let risultato = numero1 + numero2;
+console.log(risultato);
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
@@ -47,8 +48,8 @@ let x = 12;
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let name =
-  "Antonio"; /* VS Code evidenzia name come errore esplicitando che non è possibile dichiarare di nuovo la variabile con ambito blocco 'name' */
+name3 =
+  "Antonio"; /* VS Code evidenzia name come errore esplicitando che non è possibile dichiarare di nuovo la variabile con ambito blocco 'name'  TypeError: Assignment to constant variable.*/
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
@@ -56,7 +57,8 @@ let name =
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 let y = 4;
-let sottrazione = y - x;
+let sottrazione = x - y;
+console.log("il risultato è" + sottrazione);
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -65,7 +67,8 @@ let sottrazione = y - x;
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let name1 = john;
-let name2 = John;
+let name1 = "john";
+let name2 = "John";
 
-console.log(name1 == name2);
+console.log(name1 !== name2);
+console.log(name1.toLowerCase !== name2.toLowerCase);
